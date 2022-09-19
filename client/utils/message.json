@@ -1,0 +1,47 @@
+{
+  "ru": {
+    "console_prefix": ">>> ",
+    "available_command": "%s - недоступная команда. \n Введите \"help\" для справки.\n",
+    "helpCommand_text": "help : вывести справку по доступным командам\ninfo : вывести в стандартный поток вывода информацию о коллекции.\nshow : вывести в стандартный поток вывода все элементы коллекции в строковом представлении\ninsert null {element} : добавить новый элемент с заданным ключом\nupdate id {element} : обновить значение элемента коллекции, id которого равен заданному\nremove_key null : удалить элемент из коллекции по его ключу\nclear : очистить коллекцию\nsave : сохранить коллекцию в файл\nexecute_script file_name : считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.\nexit : завершить программу (без сохранения в файл)\nremove_greater {element} : удалить из коллекции все элементы, превышающие заданный\nremove_lower {element} : удалить из коллекции все элементы, меньшие, чем заданный\nreplace_if_lowe null {element} : заменить значение по ключу, если новое значение меньше старого\ncount_by_start_date startDate : вывести количество элементов, значение поля startDate которых равно заданному\nfilter_contains_name name : вывести элементы, значение поля name которых содержит заданную подстроку\nprint_field_descending_organization : вывести значения поля organization всех элементов в порядке убывания\n",
+    "infoCommand_format": "=== Информация о колекции ===\nПоследнее сохранение: %s;\nКоличество элементов: %d;\nРабочий файл: %s\n",
+    "showCommand_emptyCollection": "Колекция пуста.\n",
+    "shell_incorrectVarName": "Некорректное имя переменной.\nВведите новое имя: ",
+    "insertCommand_invalidData": "Некорректные данные\n",
+    "identifier_does_not_exist": "Такого идентификатора не существует.\n",
+    "executeCommand_Fail": "Не удалось найти файл со скриптом.\n",
+    "countByStartDate": "Количество дат равных заданному равно:",
+    "countByStartDate_fail": "По заданному времени не было найдено ни одного совпадения",
+    "shell_invalidFileFormat": "Неверная структура файла\n",
+
+    "workerForm_nameField": "Введите имя рабочего: ",
+    "coordinatesForm_XField": "Введите координату x: ",
+    "coordinatesForm_YField": "Введите координату y: ",
+    "workerForm_salaryField": "Введите зарплату рабочего: ",
+
+    "workerForm_startDateField": "Введите дату, когда рабочего устроили в формате ГГ-ММ-ДД : ",
+    "workerForm_startDateField_year": "Введите год, когда рабочего устроили:",
+
+    "workerForm_positionField": "Введите должность рабочего: ",
+    "workerForm_statusField": "Введите статус рабочего: ",
+    "workerForm_organizationCountField": "Введите количество сотрудников организации: ",
+    "workerForm_organizationTypeField": "Введите тип организации: ",
+    "workerForm_organizationAddressField": "Введите адрес организации: ",
+    "workerForm_addressStreetField": "Введите название улицы: ",
+    "workerForm_addressTownField": "Введите название города: ",
+
+
+    "workerForm_invalidName": "Имя не должно быть пустым или NULL.\n",
+    "workerForm_invalidX": "Неверное значение координаты x.\n",
+    "workerForm_invalidSalary": "Зарплата должна быть больше нуля.\n",
+    "workerForm_invalidPosition": "Неверный тип. Тип может быть null. Доступные типы: MANAGER, LABORER, HEAD_OF_DIVISION, HEAD_OF_DEPARTMENT.\n",
+    "workerForm_invalidStatus": "Неверный тип. Тип не может быть null. Доступные типы:FIRED, HIRED, RECOMMENDED_FOR_PROMOTION, REGULAR, PROBATION.\n",
+    "organization_invalidCount": "Неверное количество, оно должно быть больше нуля.\n",
+    "organization_invalidType": "Неверный тип. Тип не может быть null. Доступные типы: COMMERCIAL, PUBLIC, GOVERNMENT, TRUST, PRIVATE_LIMITED_COMPANY.\n",
+    "organization_invalidAddress": "The street and the city couldn't be equal to NULL at the same time.\n",
+    "workerForm_invalidStartDate" : "Введен неправильный формат времени!\n",
+
+    "recursion": "При выполнении скрипта возникает рекурсия"
+
+
+  }
+}
